@@ -1,0 +1,60 @@
+body {
+    background-color: #222831;
+    color: white;
+}
+
+.nav-link {
+    color: #00ADB5;
+}
+
+.head {
+    background-color: #393E46;
+}
+
+.title {
+    color: #eee
+}
+
+.lead {
+    margin-bottom: 0;
+}
+
+#hero-detail {
+    background: linear-gradient(300deg, #222831, #393E46, #00ADB5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.skills-title {
+    display: inline-block;
+    border-bottom: #00ADB5 solid 2px;
+}
+
+.skills-header {
+    color: #eeeeee;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skills-content {
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    flex: 1;
+}
+
+.item {
+    color: #eeeeee;
+    background-color: #222831;
+    padding-left: 0px;
+}
+
+footer {
+    border-top:#00ADB5;
+}
